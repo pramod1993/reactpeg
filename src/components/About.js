@@ -4,7 +4,8 @@ import {GiMoebiusStar} from 'react-icons/gi';
 import benefit from '../img/benefit.png';
 import ring from '../img/ring.svg';
 import Accordion from 'react-bootstrap/Accordion'
-import Aboutbg from '../img/About.png'
+import Aboutbg from '../img/About.png';
+import Alldata from './data.json'
 const About = () => {
   return (
     <>
@@ -85,7 +86,7 @@ const About = () => {
             </div>
             <div className="grid-cols-2 grid gap-3 mt-3">
               <div>
-                <Accordion defaultActiveKey="0">
+                <Accordion defaultActiveKey="0" flush>
                   <Accordion.Item eventKey="0"  className='mb-2 !rounded-none'>
                     <Accordion.Header className='!rounded-none'>Who is Full Stack Developer?</Accordion.Header>
                     <Accordion.Body  className='text-black'>
@@ -161,7 +162,7 @@ const About = () => {
                 </Accordion>
               </div>
               <div>
-              <Accordion defaultActiveKey="0">
+              <Accordion defaultActiveKey="0" flush>
                   <Accordion.Item eventKey="6" className='mb-2 !rounded-none'>
                     <Accordion.Header className='!rounded-none'>I am unable to find the course that I am looking for.</Accordion.Header>
                     <Accordion.Body>
@@ -238,6 +239,22 @@ const About = () => {
               </div>
             </div>
         </div>
+      </div>
+      <div className='max-w-5xl m-auto'>
+          <div className=' grid grid-cols-4 gap-3 mt-3'>
+            {Alldata.map((alldata, i) =>{
+              return(
+                <div className='bg-slate-100' key={i}>
+                  <img src={alldata.imgUrl} alt="img" className='w-full h-36' />
+                  <div className='p-2'>
+                    <span className='text-sm text-slate-400'>{alldata.news}</span>
+                    <h2 className='text-xl gap-1 font-semibold'><a href="/">{alldata.title}</a></h2>
+                    <p className='text-base'>{alldata.discription}</p>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
       </div>
       
     </>

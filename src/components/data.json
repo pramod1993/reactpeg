@@ -1,0 +1,58 @@
+[
+    {
+        "id" : 1,
+        "title" : "Can You Decorate and Clean Your Way to Happiness? Science Says Yes",
+        "imgUrl" : "https://s3.us-east-1.amazonaws.com/pocket-curatedcorpusapi-prod-images/8af9d8bd-512c-4024-a821-13a5bc3f382d.jpeg",
+        "discription" : "In the past 100 years alone the ancient city of Gaza and its surrounds have been ruled by the Ottoman Empire, Britain, Egypt and",
+        "news" : "Vogue · 7 min"
+    },
+    {
+        "id" : 2,
+        "title" : "The Gaza Strip explained: A brief history",
+        "imgUrl" : "https://s3.us-east-1.amazonaws.com/pocket-curatedcorpusapi-prod-images/b81cd9c8-f5dd-4c48-bdc6-4a758156c187.jpeg",
+        "discription" : "Here, 7 research-backed solutions to boost your health and happiness and turn your home into a restorative sanctuary.",
+        "news" : "The Sydney Morning Herald · 6 min"
+    },
+    {
+        "id" : 3,
+        "title" : "Gaza hospital: What video, pictures and other evidence tell us about Al-Ahli hospital blast",
+        "imgUrl" : "https://s3.us-east-1.amazonaws.com/pocket-curatedcorpusapi-prod-images/e73032f3-26ff-4476-9d70-2a92e985b8e3.jpeg",
+        "discription" : "The Hamas-controlled Palestinian authorities in Gaza immediately blamed Israel, claiming it was a deliberate air ",
+        "news" : "BBC · 4 min"
+    },
+    {
+        "id" : 4,
+        "title" : "Does It Work to Pay People Not to Cut the Forest?",
+        "imgUrl" : "https://s3.us-east-1.amazonaws.com/pocket-curatedcorpusapi-prod-images/80310f95-6f27-483f-82a0-d70267d2f9bf.jpeg",
+        "discription" : "Evidence that the approach helps to save trees, preserve ecosystems and reduce carbon emissions is often hard to come ",
+        "news" : "Knowable Magazine · 13 min"
+    },
+    {
+        "id" : 5,
+        "title" : "Digital legacy: how to organise your online life for after you die",
+        "imgUrl" : "https://s3.us-east-1.amazonaws.com/pocket-curatedcorpusapi-prod-images/5ea2d1e0-cfd5-4219-8460-27989c072e0b.jpeg",
+        "discription" : "A will deals with money and possessions but your online accounts and content matter too.",
+        "news" : "The Guardian · 4 min"
+    },
+    {
+        "id" : 6,
+        "title" : "After 500+ Years, X-Rays Have Revealed an Amazing Secret Inside the Mona Lisa",
+        "imgUrl" : "https://s3.us-east-1.amazonaws.com/pocket-curatedcorpusapi-prod-images/58ac4ba3-e7a6-4381-b4be-f9c27c955028.jpeg",
+        "discription" : "Leonardo da Vinci's masterpiece is even more special than we knew.",
+        "news" : "Popular Mechanics · 2 min"
+    },
+    {
+        "id" : 7,
+        "title" : "The Best Books About Philosophers and Philosophy",
+        "imgUrl" : "https://s3.us-east-1.amazonaws.com/pocket-curatedcorpusapi-prod-images/3c7659b9-c20c-4362-a23a-1c65fef7715d.jpeg",
+        "discription" : "Get philosophical with these books about great thinkers from around the world.",
+        "news" : "Biography · 4 min"
+    },
+    {
+        "id" : 8,
+        "title" : "South Indian Cinema’s Focus on Original Content Has Made It Globally Celebrated",
+        "imgUrl" : "https://s3.us-east-1.amazonaws.com/pocket-curatedcorpusapi-prod-images/8af9d8bd-512c-4024-a821-13a5bc3f382d.jpeg",
+        "discription" : "How has South Indian cinema made it so big in the international scene whereas other regional cinemas are still trying to",
+        "news" : "Outlook India"
+    }
+]
