@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="150px" height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve">
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" y="1.399" width="151.5" height="150.677"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g id="web" clip-path="url(#SVGID_2_)">
+			<g id="php">
+				<g id="Group_10739">
+					<g id="Ellipse_20" transform="translate(130.449 20.798) rotate(90)">
+						<circle fill="#FFFFFF" cx="57.254" cy="54.208" r="70"/>
+						<circle fill="none" stroke="#A53F69" stroke-width="6" cx="57.254" cy="54.208" r="66.771"/>
+					</g>
+					<path id="Path_28363" fill="#FFFFFF" d="M66.835,4.823l-0.99,48.102l-50.789-24.32L66.835,4.823z"/>
+				</g>
+				<text transform="matrix(1.156 0 0 1 35.4595 88.123)" fill="#070101" font-family="'Poppins-Bold'" font-size="32.4939">85%</text>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
