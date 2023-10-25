@@ -25,12 +25,12 @@ const Home = () => {
     <>
      <div style={{backgroundImage: `url(${bannerbg})`,backgroundSize: 'cover', 
      backgroundRepeat: 'no-repeat', backgroundPosition: 'center',}}>
-        <div className="max-w-5xl m-auto pt-12 ">
-            <div className="flex grid-cols-2 gap-5 text-white pt-6 pb-44 relative">
+        <div className="max-w-5xl m-auto pt-12 px-3">
+            <div className="grid grid-cols-2 gap-5 text-white pt-6 pb-44 relative">
                 <div className="w-full">
-                    <h1 className='text-4xl font-semibold'>Full Stack Web Development 
+                    <h1 className='sm:text-4xl text-base font-semibold m-0'>Full Stack Web Development 
                         Training</h1>
-                    <h3 className='text-2xl font-semibold'>Become an Accomplished Full 
+                    <h3 className='sm:text-2xl text-sm font-semibold'>Become an Accomplished Full 
                         Stack Web Developer</h3>
                     <p>The Knowledge Academy is Globally Recognised as the Market
                      Leader in providing Web and App Development Training. Our 
@@ -41,7 +41,7 @@ const Home = () => {
                     unique teaching styles to help aspiring candidates gain the
                     ability to design complete websites and web applications.</p>
                     <Link to='/' className='btn bg-violet-500 hover:bg-violet-600 
-                    text-base w-3/4 text-white flex items-center'>
+                    text-base md:!w-3/4 w-full text-white flex items-center'>
                         <span className='relative w-10'>                        
                             <TiStarburst className='text-4xl'/> 
                             <span className='absolute top-1 left-3 text-black'>%</span>
@@ -56,7 +56,7 @@ const Home = () => {
             </div>
         </div>
      </div>
-     <div className="max-w-5xl m-auto">
+     <div className="max-w-5xl m-auto mt-3 px-3">
         <div className="text-center">
             <h1 className='text-4xl m-0'>Full Stack Web Development Training Overview</h1>
             <div className='m-auto relative border-2 w-28 h-2 border-orange-700 mt-3'>
@@ -78,7 +78,7 @@ const Home = () => {
             knowledge and skills to add unique features to their website and become 
             successful Full Stack Developers.</p>
             <Link to='/' className='btn bg-violet-500 hover:bg-violet-600 
-                text-base w-1/3 text-white flex items-center text-center m-auto mt-3'>
+                text-base md:!w-1/3 w-full  text-white flex items-center text-center m-auto mt-3'>
                     <span className='relative w-10'>                        
                         <BsFillInfoCircleFill className='text-4xl'/>  
                     </span> 
@@ -86,7 +86,7 @@ const Home = () => {
             </Link>            
         </div>
      </div>
-     <div className="max-w-5xl m-auto text-center">
+     <div className="max-w-5xl m-auto text-center  px-3">
         <h2 className='text-2xl mt-2'>Best Selling Courses in India</h2>
         <h1 className='text-4xl m-0'>Top in-Demand Full Stack Web Development Courses</h1>
         <div className='m-auto relative border-2 w-28 h-2 border-orange-700 mt-3'>
@@ -94,8 +94,8 @@ const Home = () => {
             bottom-1.5 animation-myfirst'></div>
         </div>
 
-        <div className="grid grid-cols-3 gap-4 mt-4">
-            <div className='border p-3 hover:bg-blue-600 hover:text-white transition duration-700 delay-150'>
+        <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-3 gap-4 mt-4">
+            <div className='block border w-full p-3 hover:bg-blue-600 hover:text-white transition duration-700 delay-150'>
                 <div className='flex relative'><h3>UX / UI Design Jumpstart</h3> 
                     <div className=' w-16 h-16 border-2 border-orange-600 absolute  right-0'>
                         <SiBookstack className='text-4xl relative top-3 left-3'/>
@@ -107,7 +107,7 @@ const Home = () => {
                         text-base text-white flex items-center text-center w-1/2'><BiSolidPhoneCall className='mr-2'/>Enquire Now</Link>
                 </div>
             </div>
-            <div className='border p-3 hover:bg-blue-600 hover:text-white transition duration-700 delay-150'>
+            <div className='block border w-full p-3 hover:bg-blue-600 hover:text-white transition duration-700 delay-150'>
                 <div className='flex relative'><h3>WordPress Essentials</h3>
                     <div className=' w-16 h-16 border-2  border-orange-600 absolute right-0'>
                         <SiBookstack className='text-4xl relative top-3 left-3'/>
@@ -119,7 +119,7 @@ const Home = () => {
                         text-base text-white flex items-center text-center w-1/2'><BiSolidPhoneCall className='mr-2'/>Enquire Now</Link>
                 </div>
             </div>
-            <div className='border p-3 hover:bg-blue-600 hover:text-white transition duration-700 delay-150'>
+            <div className='block border w-full p-3 hover:bg-blue-600 hover:text-white transition duration-700 delay-150'>
                 <div className='flex relative'><h3>Javascript & JQuery Masterclass</h3>
                     <div className=' w-16 h-16 border-2 border-orange-600 absolute right-0  '>
                         <SiBookstack className='text-4xl relative top-3 left-3'/>
@@ -133,15 +133,15 @@ const Home = () => {
             </div>
         </div>
      </div>
-     <div className="max-w-5xl m-auto">
+     <div className="max-w-5xl m-auto  px-3">
         <h1 className='text-4xl font-semibold'>Our Available Delivery Methods</h1>
         <div className='m-auto relative border-2 w-28 h-2 border-orange-700 mt-3'>
             <div className='h-3.5 w-3.5 rounded-full bg-orange-600 relative 
             bottom-1.5 animation-myfirst'></div>
         </div>
        <p> This layout normally displays 3 equal columns on large screens, and on small screens, each of them occupies 100% and lines up one below the other. The only difference is medium screens, i.e. the so-called tablet view, where one column takes up 100% of the width, and the other two are placed below it and each takes up 50% of the width.</p>
-        <div className="grid grid-cols-4 gap-3">
-            <div className='border'>
+        <div className="grid-cols-1 grid sm:!grid-cols-4 gap-3">
+            <div className='border w-full flex flex-col'>
                 <div className="deliver relative overflow-hidden bg-cover bg-no-repeat bg-slate-300 items-center flex justify-center">
                     <img src={classroom} alt="classroom" />
                     <div className="overlay bg-[#7a81a8cf] items-center flex justify-center m-auto ">
@@ -158,7 +158,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='border'>
+            <div className='border w-full flex flex-col'>
                 <div className="deliver relative overflow-hidden bg-cover bg-no-repeat bg-slate-300 items-center flex justify-center">
                     <img src={classroom} alt="classroom" />
                     <div className="overlay bg-[#7a81a8cf] items-center flex justify-center m-auto ">
@@ -175,7 +175,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='border'>
+            <div className='border w-full flex flex-col'>
                 <div className="deliver relative overflow-hidden bg-cover bg-no-repeat bg-slate-300 items-center flex justify-center">
                     <img src={classroom} alt="classroom" />
                     <div className="overlay bg-[#7a81a8cf] items-center flex justify-center m-auto ">
@@ -192,7 +192,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='border'>
+            <div className='border w-full flex flex-col'>
                 <div className="deliver relative overflow-hidden bg-cover bg-no-repeat bg-slate-300 items-center flex justify-center">
                     <img src={classroom} alt="classroom" />
                     <div className="overlay bg-[#7a81a8cf] items-center flex justify-center m-auto ">
@@ -210,9 +210,9 @@ const Home = () => {
             </div>
         </div>
      </div>
-     <div className="max-w-5xl m-auto">
-        <div className="grid-cols-2 grid gap-3">
-            <div>
+     <div className="max-w-5xl m-auto  px-3">
+        <div className="grid-cols-1 grid sm:!grid-cols-2 gap-3">
+            <div className='w-full'>
                 <h1 className='text-2xl font-semibold'>Skills Required to Become a Successful Full Stack Developer</h1>
                 <div className='m-auto relative border-2 w-28 h-2 border-orange-700 mt-3'>
                     <div className='h-3.5 w-3.5 rounded-full bg-orange-600 relative 
@@ -238,7 +238,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='w-full'>
                 <h1 className='text-2xl font-semibold'>Pros of Hiring Full Stack Developers</h1>
                 <div className='m-auto relative border-2 w-28 h-2 border-orange-700 mt-3'>
                     <div className='h-3.5 w-3.5 rounded-full bg-orange-600 relative 
@@ -270,7 +270,7 @@ const Home = () => {
             </div>
         </div>
      </div>
-     <div className="max-w-5xl m-auto">
+     <div className="max-w-5xl m-auto  px-3">
         <h1 className='text-2xl font-semibold'>Why Choose Us</h1>
         <div className='m-auto relative border-2 w-28 h-2 border-orange-700 mt-3'>
             <div className='h-3.5 w-3.5 rounded-full bg-orange-600 relative 
@@ -278,29 +278,29 @@ const Home = () => {
         </div>
         <p>We help you quench your thirst for knowledge by providing you with our specially tailored certifications. Our highly qualified instructors, dedicated staff, and 24/7 available helpline are the main reasons why we're the go-to training provider for you.</p>
 
-        <div className="grid-cols-4 grid mt-3 gap-3">
-            <div className='border p-3'>
+        <div className="grid-cols-1 grid sm:!grid-cols-4 mt-3 gap-3">
+            <div className='border p-3 w-full'>
                 <div>
                     <ImPriceTags className='m-auto text-center text-5xl mb-3' />
                 </div>
                     <p><strong>Best Price Guarantee</strong></p>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
             </div>
-            <div className='border p-3'>
+            <div className='border p-3 w-full'>
                 <div>
                     <FaRunning className='m-auto text-center text-5xl mb-3'/> 
                 </div>
                 <p><strong>Guaranteed to Run</strong></p>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
             </div>
-            <div className='border p-3'>
+            <div className='border p-3 w-full'>
                 <div>
                     <FaRegAddressCard className='m-auto text-center text-5xl mb-3'/> 
                 </div>
                 <p><strong>Highly Experienced Staff</strong></p>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
             </div>
-            <div className='border p-3'>
+            <div className='border p-3 w-full'>
                 <div>
                     <TbAward className='m-auto text-center text-5xl mb-3'/>
                 </div>
@@ -309,9 +309,9 @@ const Home = () => {
             </div>
         </div>
      </div>
-     <div className="max-w-5xl m-auto">
-        <div className="grid-cols-2 grid gap-3">
-            <div>
+     <div className="max-w-5xl m-auto  px-3">
+        <div className="grid-cols-1 grid sm:!grid-cols-2 gap-3">
+            <div className='w-full'>
                 <h1 className='text-4xl'>Why Should You Become a Full Stack Developer?</h1>
                 <div className='m-auto relative border-2 w-28 h-2 border-orange-700 mt-3'>
                     <div className='h-3.5 w-3.5 rounded-full bg-orange-600 relative 
@@ -324,7 +324,7 @@ const Home = () => {
                     <p className='flex items-center'><GiMoebiusStar className='animate-spin text-2xl mr-2'/> To understand Full Stack offers rapid growth in the job role.</p>
                 </div>                   
             </div>
-            <div className='mt-3'>
+            <div className='mt-3 w-full'>
                 <h1 className='text-4xl'>Top Tools for Full Stack Web Development</h1>
                 <div className='m-auto relative border-2 w-28 h-2 border-orange-700 mt-3'>
                     <div className='h-3.5 w-3.5 rounded-full bg-orange-600 relative 

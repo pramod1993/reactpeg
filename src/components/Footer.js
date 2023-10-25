@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div className="py-4 bg-slate-600 mt-4">
-        <div className="grid-cols-4 grid max-w-5xl gap-3 m-auto text-white">
+        <div className="grid-cols-1 grid sm:!grid-cols-4 px-3 max-w-5xl gap-3 m-auto text-white">
             <div>
                 <h2>SAMPLE PAPERS</h2>
                 <ul className='grid gap-2  pt-3'>
